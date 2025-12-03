@@ -7,6 +7,8 @@ Each repository has a clearly defined responsibility, technology stack, and depe
 
 ## 1. `cloudsteak/dora-mcp-server`
 
+Link: https://github.com/cloudsteak/dora-mcp-server
+
 ### **Purpose**
 Central MCP integration server exposing `/mcp/...` endpoints and routing tool-calls to internal agents.
 
@@ -30,7 +32,8 @@ Central MCP integration server exposing `/mcp/...` endpoints and routing tool-ca
 ---
 
 ## 2. `cloudsteak/dora-backend`  
-*(renamed from `cloudsteak/dora`)*
+
+Link: https://github.com/cloudsteak/dora-backend
 
 ### **Purpose**
 Core intelligence layer of the platform, coordinating LLM interactions, RAG, and MCP client logic.
@@ -61,6 +64,8 @@ Core intelligence layer of the platform, coordinating LLM interactions, RAG, and
 
 ## 3. `cloudsteak/dora-frontend`
 
+Link: https://github.com/cloudsteak/dora-frontend
+
 ### **Purpose**
 The user-facing web-based chat interface.  
 Runs fully in Python using NiceGUI to avoid NodeJS build chains.
@@ -85,6 +90,8 @@ Runs fully in Python using NiceGUI to avoid NodeJS build chains.
 ---
 
 ## 4. `cloudsteak/dora-agents`
+
+Link: https://github.com/cloudsteak/dora-agents
 
 ### **Purpose**
 Collection of all internal microservice “agent” implementations consumed by the MCP server.
@@ -116,6 +123,8 @@ code-analyzer-agent/
 ---
 
 ## 5. `cloudsteak/dora-gitops`
+
+Link: https://github.com/cloudsteak/dora-gitops
 
 ### **Purpose**
 Central GitOps repository for deploying the entire DORA platform via ArgoCD.
