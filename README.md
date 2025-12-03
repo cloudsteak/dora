@@ -3,6 +3,10 @@
 The DORA platform is built as a set of modular repositories, aligned with the system architecture.  
 Each repository has a clearly defined responsibility, technology stack, and dependency surface.
 
+## DORA: Documentation Orchestration & Review Assistant
+
+**Tag line:** Your intelligent partner in documentation.
+
 ---
 
 ## 1. `cloudsteak/dora-mcp-server`
